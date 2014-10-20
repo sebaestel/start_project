@@ -1,0 +1,10 @@
+{
+  "name": "Base project with Angular",
+  "version": "0.0.1",
+  "description": "Ejemplo de desarrollo de aplicación web con JavaScript",
+  "dependencies": {
+    "angular": "~1.2.23",
+    "angular-route": "~1.2.23",
+    "bootstrap": "~3.2.0"
+  }
+}
