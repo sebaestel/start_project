@@ -15,6 +15,10 @@
       .when('/albums', {
         templateUrl : routePrefix+'content.html',
         controller: 'album',
+      })         
+      .when('/charts', {
+        templateUrl : routePrefix+'charts.html',
+        controller: 'chart',
       })      
       .when('/album/:id', {
         templateUrl : routePrefix+'post.html',
