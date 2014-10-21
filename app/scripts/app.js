@@ -45,6 +45,10 @@
 
   });
 
+  app.controller('animation', function($scope, $routeParams, $http) {
+
+  });
+
   app.controller('chartCtrl', function ($scope) {
 
     $scope.addPoints = function () {
