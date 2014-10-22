@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular-route/angular-route.min.js"></script>
@@ -8,6 +9,9 @@
     <script src="scripts/app.js"></script>
     <script src="lib/highcharts/highcharts-ng.js"></script>
     <script src="scripts/routes.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-utils/ui-utils.js"></script>
+
+
 <style>
 .myCssVar,.show,.hide{
    position: absolute;
@@ -25,6 +29,17 @@
   display: none;
   right: -9999;
 }
+.yourclass {
+    /* your CSS code, 100px from the top of the page */
+    background-color: red;
+    width:100%;
+
+}
+.yourclass.ui-scrollfix {
+    position:fixed;
+    top:0;
+}
+
 </style>
   </head>
 

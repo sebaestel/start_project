@@ -1,5 +1,5 @@
 (function() {
-  var app = angular.module('app', ['routes','highcharts-ng'])
+  var app = angular.module('app', ['routes','highcharts-ng','ui.scrollfix'])
   var albums = "http://jsonplaceholder.typicode.com/albums/"
 
   app.controller('app', function() {
@@ -46,6 +46,10 @@
   });
 
   app.controller('animation', function($scope, $routeParams, $http) {
+
+  });
+
+  app.controller('header', function($scope, $routeParams, $http) {
 
   });
 
@@ -100,12 +104,7 @@
         loading: false
     }
 
-});
-
-
-
-
-
+  });
 
 })();
 

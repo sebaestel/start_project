@@ -19,6 +19,10 @@
       .when('/charts', {
         templateUrl : routePrefix+'charts.html',
         controller: 'chart',
+      })    
+      .when('/header', {
+        templateUrl : routePrefix+'header.html',
+        controller: 'header',
       })         
       .when('/animation', {
         templateUrl : routePrefix+'animation.html',
